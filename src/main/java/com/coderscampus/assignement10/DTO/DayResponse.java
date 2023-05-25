@@ -1,21 +1,25 @@
 package com.coderscampus.assignement10.DTO;
 
 import java.util.List;
+import java.util.Map;
 
-public class Monday {
-	private List <Meals> meals;
+public class DayResponse {
+	private List<Meals> meals;
 	private Nutrients nutrients;
-	public List <Meals> getMeals(){
+
+	public List<Meals> getMeals() {
 		return meals;
 	}
+
 	public Nutrients getNutrients() {
 		return nutrients;
 	}
+
 	public void setNutrients(Nutrients nutrients) {
 		this.nutrients = nutrients;
 	}
+
 	public void setMeals(List<Meals> meals) {
 		this.meals = meals;
 	}
-
 }

@@ -1,72 +1,74 @@
 package com.coderscampus.assignement10.DTO;
 
 public class Week {
-	private Monday monday;
-	private Tuesday tuesday;
-	private Wednesday wednesday;
-	private Thursday thursday;
-	private Friday friday;
-	private Saturday saturday;
-	private Sunday sunday;
+	private DayResponse monday;
+	private DayResponse tuesday;
+	private DayResponse wednesday;
+	private DayResponse thursday;
+	private DayResponse friday;
+	private DayResponse saturday;
+	private DayResponse sunday;
 
 	public Week() {
 
 	}
 
-	public Monday getMonday() {
+	public DayResponse getMonday() {
 		return monday;
 	}
 
-	public void setMonday(Monday monday) {
+	public void setMonday(DayResponse monday) {
 		this.monday = monday;
 	}
 
-	public Tuesday getTuesday() {
+	public DayResponse getTuesday() {
 		return tuesday;
 	}
 
-	public void setTuesday(Tuesday tuesday) {
+	public void setTuesday(DayResponse tuesday) {
 		this.tuesday = tuesday;
 	}
 
-	public Wednesday getWednesday() {
+	public DayResponse getWednesday() {
 		return wednesday;
 	}
 
-	public void setWednesday(Wednesday wednesday) {
+	public void setWednesday(DayResponse wednesday) {
 		this.wednesday = wednesday;
 	}
 
-	public Thursday getThursday() {
+	public DayResponse getThursday() {
 		return thursday;
 	}
 
-	public void setThursday(Thursday thursday) {
+	public void setThursday(DayResponse thursday) {
 		this.thursday = thursday;
 	}
 
-	public Friday getFriday() {
+	public DayResponse getFriday() {
 		return friday;
 	}
 
-	public void setFriday(Friday friday) {
+	public void setFriday(DayResponse friday) {
 		this.friday = friday;
 	}
 
-	public Saturday getSaturday() {
+	public DayResponse getSaturday() {
 		return saturday;
 	}
 
-	public void setSaturday(Saturday saturday) {
+	public void setSaturday(DayResponse saturday) {
 		this.saturday = saturday;
 	}
 
-	public Sunday getSunday() {
+	public DayResponse getSunday() {
 		return sunday;
 	}
 
-	public void setSunday(Sunday sunday) {
+	public void setSunday(DayResponse sunday) {
 		this.sunday = sunday;
 	}
+
+
 
 }

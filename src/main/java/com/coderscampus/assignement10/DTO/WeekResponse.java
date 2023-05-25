@@ -1,6 +1,5 @@
-package com.coderscampus.assignement10.web;
+package com.coderscampus.assignement10.DTO;
 
-import com.coderscampus.assignement10.DTO.Week;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class WeekResponse {

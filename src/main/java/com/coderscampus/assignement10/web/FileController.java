@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import com.coderscampus.assignement10.DTO.DayResponse;
+import com.coderscampus.assignement10.DTO.WeekResponse;
+
 @RestController
 public class FileController {
 	private static final String API_KEY = "1a5d951cbf50420aaf54751c55e6b2dd";
